@@ -1,4 +1,4 @@
-FROM nginx:1.25.3
+FROM nginx:1.25.3-alpine
 
 ENV NGINX_HTTP_FLV_MODULE_VERSION 1.2.11
 
