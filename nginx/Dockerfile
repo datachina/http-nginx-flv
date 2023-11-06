@@ -1,6 +1,6 @@
-FROM nginx:1.16.1-alpine
+FROM nginx:1.25.3
 
-ENV NGINX_HTTP_FLV_MODULE_VERSION 1.2.6
+ENV NGINX_HTTP_FLV_MODULE_VERSION 1.2.11
 
 RUN CONFIG="\
     --prefix=/etc/nginx \
